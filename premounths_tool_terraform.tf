@@ -140,6 +140,22 @@ resource "aws_instance" "your_instance name" { #name of instance
     Name = "Prometheus-Instance"
   }
 }
+#/end code
+
+then install terraform  and setup 
+
+after terraform commands 
+check the version  terraform version
+intilize the       terraform init
+vaildate code      terraform validate
+checkthe            terramform plan
+then apply the      terraform apply
+check your ip address on google 
+http://ip.adderss:9090
+setup your alert on monitoring tools 
+this simple setup terraform code for monitoring tool
+
+
 
 
   
