@@ -117,7 +117,7 @@ resource "aws_instance" "your_instance name" { #name of instance
               sudo rm -rf index.html
               sudo scp (source) /var/www/html/index.html
               sudo mkdir -p /etc/nginx/sites-available/default
-              sudo scp /c/Users/USER/Downloads/tool/aws/Project-1-Promenthous-Confiquration/nginx.conf /var/www/html/index.html
+              sudo scp (source) /var/www/html/index.html
               sudo nginx -t
               sudo systemctl daemon-reload
               sudo systemctl restart nginx
